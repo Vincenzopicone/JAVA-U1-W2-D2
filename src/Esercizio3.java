@@ -3,9 +3,7 @@ import java.util.*;
 public class Esercizio3 {
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-
         Map<String, Integer> rubrica = new HashMap<String, Integer>();
-
         for (int i = 0; i < 5; i++) {
             System.out.println("Inserisci il nome");
             String nome = scanner.next();
@@ -26,9 +24,6 @@ public class Esercizio3 {
         int numeroDaRicercare = scanner.nextInt();
         ricercaDaNumero((Map) rubrica, numeroDaRicercare);
     }
-
-
-
     public static void ricercaDaNome(Map list, String x) {
         System.out.print(list.get(x));
     }

@@ -5,7 +5,6 @@ public class Esercizio2 {
 
     public static void main(String[] args) {
         List<Integer> listaNumeri = new ArrayList<Integer>();
-
         Random random = new Random();
         System.out.println("Quanti numeri vuoi generare?");
         int quantità = scanner.nextInt();
