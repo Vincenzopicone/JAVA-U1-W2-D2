@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Esercizio2 {
     public static Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) {
         List<Integer> listaNumeri = new ArrayList<Integer>();
         Random random = new Random();
